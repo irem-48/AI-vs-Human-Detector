@@ -10,11 +10,13 @@ st.set_page_config(
 )
 
 # --- BAŞLIK VE AÇIKLAMA ---
-st.title("🕵️‍♂️ Human vs AI Dedektörü")
+st.title("🕵️‍♂️ Gelişmiş AI - İnsan Metin Dedektörü")
 st.markdown("""
-Bu proje, girilen metnin **Yapay Zeka (AI)** tarafından mı yoksa **İnsan** tarafından mı yazıldığını 
+Bu proje, girilen metnin **Yapay Zeka (AI)** tarafından mı yoksa **Gerçek Bir İnsan** tarafından mı yazıldığını 
 Makine Öğrenmesi (ML) algoritmaları kullanarak tespit eder.
 """)
+# ARAYÜZE EKLENEN TASARIM ÖGESİ
+st.info("Not: Bu sistem eğitim amaçlı geliştirilmiştir.")
 st.divider()
 
 # --- MODEL YÜKLEME ---
